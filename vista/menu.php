@@ -17,16 +17,6 @@ $perusu = isset($_SESSION["perfil"]) ? $_SESSION["perfil"]:NULL;
             <li></li>
             </ul>
     </li>
-	<hr width="0%" />
-    <li><a href="home.php?pac=102">Parametro</a></li>
-    <li><a>Carga Masiva</a>
-    <ul>
-    		<li><a href="home.php?pac=112">Programa Masivo</a></li>
-    		<li><a href="home.php?pac=113">Ficha Masiva</a></li>
-    		<li><a href="home.php?pac=114">Aprendiz Masivo</a></li>
-            <li></li>
-    </ul>
-    </li>
     <!---<li><a href="home.php?pac=108">Encuestas</a></li>-->
     <?php } ?>
     <?php if($perusu==1){ ?>
@@ -34,6 +24,11 @@ $perusu = isset($_SESSION["perfil"]) ? $_SESSION["perfil"]:NULL;
     <ul>
             <li><a href="home.php?pac=121">Estadistica</a></li>
             <li><a href="home.php?pac=111">Grafica</a></li>          
+    </ul>
+    </li>
+    <li><a >Incidente</a>
+    <ul>
+            <li><a href="home.php?pac=121">Crear Incidente</a></li>        
     </ul>
     </li>
     <?php } ?>

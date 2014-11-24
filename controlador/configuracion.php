@@ -2,5 +2,5 @@
 	$usu_db = "root";
 	$pass_db = "";
 	$serv_db = "localhost";
-	$db = "helpdesk";
+	$db = "novadesk";
 ?>
